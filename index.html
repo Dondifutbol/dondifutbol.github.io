@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="Sitio oficial de [NOMBRE DEL YOUTUBER], videos de [temática]">
+    <meta name="keywords" content="videos, youtube, creador de contenido">
+    <title>Sitio Oficial - DondiFutbol</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="inicio">
+        <div class="perfil">
+            <img src="imagenes/foto-perfil.jpg" alt="Foto del creador">
+            <h1>DONDI FUTBOL</h1>
+            <p>Creador de contenido de futbol, juegos, etc.</p>
+            <a href="https://youtube.com/@dondiok?si=_5T4HYCMvjDu7lHY" target="_blank" class="boton-suscribir">🔔 Suscribirse</a>
+        </div>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#redes">Redes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+         <!-- Sección de videos -->
+        <section id="videos">
+            <h2>🎥 Videos más populares</h2>
+            <div class="contenedor-videos">
+                <!-- Iframe de YouTube -->
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/0-likXEHFyU?si=N9w8W5U64U8ubLVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>
+"BOCA ES EL MEJOR DE TODOS" | Reaccion Boca Juniors vs Banfield | Copa Argentina</h3>
+                </div>
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/J2pO1tDnrqM?si=GSTSdsPCLLNjApNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>
+ESTE BOCA ES IMPARABLE | Boca Juniors 3 - 0 Banfield | Copa Argentina</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi">
+            <h2>👨‍💻 Sobre mí</h2>
+            <p>Aqui Hablamos - Reaccionamos y Debatimos sobre Futbol. Si queres aprender, aportar y entretenerte este es tu Lugar. 🚨Todo el CONTENIDO que VERAS lo hacemos en STREAM, Seguinos en 🟢KICK "dondiok" para verlo en VIVO.</p>
+        </section>
+
+        <!-- Redes sociales -->
+        <section id="redes">
+            <h2>🌐 Mis redes sociales</h2>
+            <div class="contenedor-redes">
+                <a href="https://youtube.com/@dondiok?si=_5T4HYCMvjDu7lHY" target="_blank">YouTube</a>
+                <a href="https://www.youtube.com/@dondijuegos" target="_blank">YouTube 2</a>
+                <a href="https://www.instagram.com/santi.ferraretto/" target="_blank">Instagram</a>
+                <a href="https://www.tiktok.com/@dondifutbol?_r=1&_t=ZS-9BWTfQppWxa" target="_blank">TikTok</a>
+                <a href="https://kick.com/dondiok" target="_blank">Kick</a>
+            </div>
+        </section>
+
+        <!-- Formulario de contacto (Formspree) -->
+        <section id="contacto">
+            <h2>📩 Contacto para colaboraciones</h2>
+            <form action="https://formspree.io/f/meaokwvy" method="POST" class="form-contacto">
+                <div class="campo">
+                    <label for="nombre">Tu nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje (propuesta de colaboración)</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar mensaje ✉️</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sitio oficial de DondiBokenze | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
